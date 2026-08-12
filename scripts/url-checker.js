@@ -1,11 +1,6 @@
 import { collectUrlErrors } from './markdown.js';
 
-/**
- * Orchestrates URL validation and prints results.
- * Exits with code 1 if any broken URLs are found.
- * @returns {Promise<void>}
- */
-const runCmd = async () => {
+const checkReadmeURLs = async () => {
 	const errorReports = await collectUrlErrors();
 
 	if (errorReports.length === 0) {
@@ -19,9 +14,11 @@ const runCmd = async () => {
 	}));
 
 	const plural = errorReports.length > 1;
+	
 	console.log(`Found ${plural ? 'these' : 'a'} broken URL${plural ? 's' : ''} in the README:`);
 	console.table(reportRows);
+	
 	process.exit(1);
 };
 
-runCmd();
+await checkReadmeURLs();
