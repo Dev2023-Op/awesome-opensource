@@ -28,14 +28,12 @@
 			"matchManagers": ["npm"],
 			"matchDepTypes": ["engines"],
 			"enabled": false
-		},
+		}
 		//#endregion
 	],
 	"ignoreDeps": [
-		// manually bumping deps
-		"@biomejs/biome",
 		// manually bumping workflow actions
-		"actions/labeler",
+		"actions/labeler"
 	],
 	"minimumReleaseAge": "3 days"
 }

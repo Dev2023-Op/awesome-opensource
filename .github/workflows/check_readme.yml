@@ -6,9 +6,6 @@ on:
       - main
   pull_request:
 
-env:
-  FORCE_COLOR: true
-
 jobs:
   check-readme:
     runs-on: ubuntu-latest
