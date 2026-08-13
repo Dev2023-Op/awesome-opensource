@@ -3,19 +3,7 @@
   "name": "awesome-opensource",
   "type": "module",
   "scripts": {
-    "check-urls": "node scripts/url-checker.js",
-    "format": "pnpm run format:code && pnpm run format:imports",
-    "format:code": "biome format --write && prettier -w \"**/*\" --ignore-unknown --cache",
-    "format:imports": "biome check --formatter-enabled=false --write",
-    "prepare": "is-ci || husky"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "2.4.15",
-    "@commitlint/cli": "^21.0.2",
-    "@commitlint/config-angular": "^21.0.2",
-    "husky": "^9.1.7",
-    "is-ci": "^4.1.0",
-    "prettier": "^3.8.4"
+    "check-urls": "node scripts/url-checker.js"
   },
   "license": "CC0-1.0",
   "packageManager": "pnpm@11.21.0"
