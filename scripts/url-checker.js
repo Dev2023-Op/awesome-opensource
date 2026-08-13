@@ -1,6 +1,6 @@
-import { collectUrlErrors } from './markdown.js';
+import { collectUrlErrors } from './utils.js';
 
-const checkReadmeURLs = async () => {
+async function checkReadmeURLs() {
 	const errorReports = await collectUrlErrors();
 
 	if (errorReports.length === 0) {
