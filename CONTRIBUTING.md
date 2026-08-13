@@ -48,10 +48,7 @@ A project must meet **all** of the following:
 
 **Important:** Before opening a pull request, you **must** run:
 
-```
-# Sort entries alphabetically
-pnpm sort-resources
-
+```shell
 # Validate all repository URLs
 pnpm check-urls
 ```
@@ -67,6 +64,7 @@ This project follows the [Conventional Commits](https://www.conventionalcommits.
 | `docs`   | Changes to README, CONTRIBUTING, or other documentation   |
 | `chore`  | Maintenance tasks (reformatting, reorganizing categories) |
 | `remove` | Removing a project from the list                          |
+| `ci`     | Changes to GitHub Actions workflows or CI configuration   |
 
 **Examples:**
 
@@ -75,6 +73,7 @@ feat: add Helix editor to code editors section
 fix: update broken link for Flowbite repository
 docs: clarify license criteria in CONTRIBUTING
 remove: drop abandoned project from CLI tools
+ci: update node version in workflow
 ```
 
 Commits that do not follow this convention will be asked to be amended before merging.
@@ -87,7 +86,7 @@ fix: correct broken link for Flowbite
 docs: update entry format in CONTRIBUTING
 ```
 
-Common types: `feat`, `fix`, `docs`, `chore`. Pull requests with non-conforming commit messages will be asked to rebase before merging.
+Common types: `feat`, `fix`, `docs`, `chore`, `ci`. Pull requests with non-conforming commit messages will be asked to rebase before merging.
 
 ## Entry Format
 
