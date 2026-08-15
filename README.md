@@ -531,6 +531,7 @@
 - [Remix Icon](https://github.com/Remix-Design/RemixIcon) - System-style open-source icon library.
 - [Simple Icons](https://github.com/simple-icons/simple-icons) - Brand and logo icons in SVG format.
 - [Tabler Icons](https://github.com/tabler/tabler-icons) - Large, consistent and actively maintained icon set.
+- [google fonts icons](https://fonts.google.com/icons) - Simple icon pack made by google
 
 ### React UI libraries
 
