@@ -363,7 +363,7 @@
 - [Responder](https://github.com/lgandx/Responder) - LLMNR, NBT-NS, and MDNS poisoner commonly used in internal network assessments.
 - [sqlmap](https://github.com/sqlmapproject/sqlmap) - Automated SQL injection and database takeover tool.
 - [Wireshark](https://github.com/wireshark/wireshark) - Network protocol analyzer for troubleshooting and packet inspection.
-- [hetty](https://github.com/dstotijn/hetty) - Open source proxy that allows you to modify packets
+- [Hetty](https://github.com/dstotijn/hetty) - Open source proxy that allows you to modify packets.
 
 ### Secrets Management & Encryption
 
@@ -531,7 +531,6 @@
 - [Remix Icon](https://github.com/Remix-Design/RemixIcon) - System-style open-source icon library.
 - [Simple Icons](https://github.com/simple-icons/simple-icons) - Brand and logo icons in SVG format.
 - [Tabler Icons](https://github.com/tabler/tabler-icons) - Large, consistent and actively maintained icon set.
-- [google fonts icons](https://fonts.google.com/icons) - Simple icon pack made by google
 
 ### React UI libraries
 
